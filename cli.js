@@ -24,9 +24,8 @@ if (process.argv.indexOf('-v') !== -1 || process.argv.indexOf('--version') !== -
 	console.log(pkg.version);
 	return;
 }
-
 var target = (input && require(input)) || require(process.cwd() + '/package.json');
-var depObj = Object.assign(target.dependencies,target.devDependencies);
+var depObj = Object.assign(target.dependencies || {}, target.devDependencies || {});
 var depArr = Object.keys(depObj);
 (async ()=>{
 	for(const dep of depArr) {
