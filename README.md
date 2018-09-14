@@ -24,7 +24,7 @@ $ npm install --save dep-info
 ## Usage
 
 ```js
-const info = require('dep-info');
+const info = require('dep-info');
 
 (async () => {
     console.log(await info('dep-info'));
