@@ -23,16 +23,17 @@
     "cli.js"
   ],
   "keywords": [
-    "info",
     "dependency",
     "dependencies",
     "devDependencies",
+    "info",
     "npm",
     "package",
     "package.json",
+    "detail",
+    "description",
     "current",
     "module",
-    "npm",
     "information",
     "version",
     "author"

@@ -3,7 +3,7 @@ var assert = require('assert');
 var info = require('./index');
 
 it('should get the latest info of a package', function (done) {
-	info('dependencies-info', function (err, info) {
+	info('request', function (err, info) {
 		assert(!err, err);
 		assert(info);
 		['name', 'version', 'description', 'license', 'homepage', 'author']
