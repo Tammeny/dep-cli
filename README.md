@@ -1,4 +1,4 @@
-# dependencies-info  v1.0.0
+# dep-info  v1.0.0
 
 > Get the information of dependencies in a npm package.json.
 
@@ -17,43 +17,43 @@ The information that you can retrieve are:
 ## Install
 
 ```sh
-$ npm install --save dependencies-info
+$ npm install --save dep-info
 ```
 
 
 ## Usage
 
 ```js
-const info = require('dependencies-info');
+const info = require('dep-info');
 
 (async () => {
-    console.log(await info('dependencies-info'));
+    console.log(await info('dep-info'));
 })();
 ```
 
 ## CLI
 
 ```sh
-$ npm install --global dependencies-info
+$ npm install --global dep-info
 ```
 
 ```sh
-$ dependencies-info --help
+$ dep-info --help
 
 Usage
-  $ dependencies-info <package-name>
+  $ dep-info <package-name>
 
 Example
-  $ dependencies-info request
+  $ dep-info request
 ```
 
 It will prints:
 ```
-name: dependencies-info
+name: dep-info
 version: 1.0.0
 description: Get the information of dependencies in a npm package.json
 license: MIT
-homepage: https://github.com/Tammeny/dependencies-info
+homepage: https://github.com/Tammeny/dep-info
 author: tangwenyong
 ```
 

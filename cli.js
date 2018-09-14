@@ -9,10 +9,10 @@ function help() {
 	console.log(pkg.description);
 	console.log('');
 	console.log('Usage');
-	console.log('  $ dependencies-info <package-name>');
+	console.log('  $ dep-info <package-name>');
 	console.log('');
 	console.log('Example');
-	console.log('  $ dependencies-info pageres');
+	console.log('  $ dep-info pageres');
 }
 
 if (argv.indexOf('--help') !== -1) {
