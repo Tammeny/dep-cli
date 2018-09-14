@@ -9,10 +9,10 @@ function help() {
 	console.log(pkg.description);
 	console.log('');
 	console.log('\x1b[36m%s\x1b[0m', 'Usage');
-	console.log('  $ dep-info <package-name>');
+	console.log('  $ dep-cli <package-name>');
 	console.log('');
 	console.log('\x1b[36m%s\x1b[0m', 'Example');
-	console.log('  $ dep-info pageres');
+	console.log('  $ dep-cli pageres');
 }
 
 if (argv.indexOf('-h') !== -1 || argv.indexOf('--help') !== -1) {

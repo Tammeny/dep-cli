@@ -1,11 +1,11 @@
 {
-  "name": "dep-info",
-  "version": "1.0.1",
+  "name": "dep-cli",
+  "version": "1.0.0",
   "description": "Get the information of dependencies in a npm package.json.",
   "license": "MIT",
-  "repository": "Tammeny/dep-info",
+  "repository": "Tammeny/dep-cli",
   "bin": {
-    "dep-info": "cli.js"
+    "dep-cli": "cli.js"
   },
   "author": {
     "name": "tangwenyong",
