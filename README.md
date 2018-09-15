@@ -28,7 +28,7 @@ const info = require('dep-cli');
 })();
 ```
 
-## used for command line
+## Used for command line
 It will get the dependency information in package.json under the current directory, or you can enter the absolute path of package.json.
 
 ```sh
