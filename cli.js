@@ -9,10 +9,14 @@ function help() {
 	console.log(pkg.description);
 	console.log('');
 	console.log('\x1b[36m%s\x1b[0m', 'Usage');
-	console.log('  $ dep-cli <package-name>');
+	console.log('  $ dep-cli [package-path]');
 	console.log('');
 	console.log('\x1b[36m%s\x1b[0m', 'Example');
-	console.log('  $ dep-cli pageres');
+	console.log('  $ cd /Users/tangwenyong/Documents/yourProject');
+	console.log('  $ dep-cli');
+
+	console.log('  or');
+	console.log('  $ dep-cli /Users/tangwenyong/Documents/yourProject/package.json');
 }
 
 if (argv.indexOf('-h') !== -1 || argv.indexOf('--help') !== -1) {

@@ -14,14 +14,11 @@ The information that you can retrieve are:
 - <b>package homepage</b>
 - <b>package author name</b>
 
-## Install
-
+## Used for node program
+It will only get only one package info.
 ```sh
 $ npm install --save dep-cli
 ```
-
-
-## Usage
 
 ```js
 const info = require('dep-cli');
@@ -31,7 +28,8 @@ const info = require('dep-cli');
 })();
 ```
 
-## CLI
+## used for command line
+It will get the dependency information in package.json under the current directory, or you can enter the absolute path of package.json.
 
 ```sh
 $ npm install --global dep-cli
@@ -41,20 +39,26 @@ $ npm install --global dep-cli
 $ dep-cli --help
 
 Usage
-  $ dep-cli <package-name>
+  $ dep-cli [package-path]
 
 Example
-  $ dep-cli request
+  $ cd /Users/tangwenyong/Documents/yourProject
+  $ dep-cli
+
+  or
+  $ dep-cli /Users/tangwenyong/Documents/yourProject/package.json
 ```
 
 It will prints:
 ```
-name: dep-cli
-version: 1.0.0
-description: Get the information of dependencies in a npm package.json
-license: MIT
-homepage: https://github.com/Tammeny/dep-cli
-author: tangwenyong
+===== mocha =====
+name : mocha
+version : 5.2.0
+description : simple, flexible, fun test framework
+license : MIT
+homepage : https://mochajs.org
+author : TJ Holowaychuk
+total dependencies: 1
 ```
 
 ## License
