@@ -1,4 +1,4 @@
-# dep-cli  v1.0.0
+# dep-cli
 [![Build Status](https://www.travis-ci.org/Tammeny/dep-cli.svg?branch=master)](https://www.travis-ci.org/Tammeny/dep-cli)
 > Get the information of dependencies in a npm package.json.
 
