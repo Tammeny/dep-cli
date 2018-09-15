@@ -1,6 +1,6 @@
 {
   "name": "dep-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the information of dependencies in a npm package.json.",
   "license": "MIT",
   "repository": "Tammeny/dep-cli",
