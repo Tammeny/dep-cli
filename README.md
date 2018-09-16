@@ -15,7 +15,7 @@ The information that you can retrieve are:
 - <b>package author name</b>
 
 ## Used for node program
-It will only get only one package info.
+It will get only one package info.
 ```sh
 $ npm install --save dep-cli
 ```
